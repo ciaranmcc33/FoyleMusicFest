@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.header {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.site-nav {
+  margin-top: 10px;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+
+.lineup-intro {
+  text-align: center;
+  padding: 50px 0 30px;
+}
+
+.lineup-intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.lineup-intro p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+
+.lineup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+
+.card {
+  border: 2px solid #000;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 0 #000;
+}
+
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin-bottom: 15px;
+}
+
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+
+.genre {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.description {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+
+.site-footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+

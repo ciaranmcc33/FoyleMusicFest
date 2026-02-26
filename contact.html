@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | FoyleMusicFest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="wrapper">
+        <div class="brand">Foyle Music Festival</div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lineup.html">Line-up</a></li>
+                <li><a href="tickets.html">Tickets &amp; Camping</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="intro-section">
+    <div class="wrapper">
+        <h1>Contact Us</h1>
+        <h3>Have a question? See the FAQ section below.</h3>
+    </div>
+</section>
+
+<main>
+    <div class="wrapper">
+
+        <section class="section">
+            <h2 class="section-heading">FAQs</h2>
+
+            <article class="card">
+                <h3>Is there parking?</h3>
+                <p>
+                    Yes, parking is available at the leisure centre and costs £3.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>What time does the festival finish?</h3>
+                <p>
+                    The festival finishes at 10:30pm.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Is food available at the festival?</h3>
+                <p>
+                    Yes, food trucks will be available throughout the event.
+                </p>
+            </article>
+        </section>
+
+        <section class="section">
+            <h2 class="section-heading">Follow Us</h2>
+
+            <article class="card">
+                <p>Follow us on social media for updates and announcements:</p>
+
+                <p class="social-link">
+                    <img src="assets/instagram.jpg" alt="Instagram logo" width="40">
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </p>
+
+                <p class="social-link">
+                    <img src="assets/tiktok.jpg" alt="TikTok logo" width="40">
+                    <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+                </p>
+            </article>
+        </section>
+
+<section class="section">
+    <h2 class="section-heading">Send Us a Message</h2>
+
+    <article class="card">
+        <form onsubmit="return showMessage();">
+            
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit Message</button>
+
+        </form>
+    </article>
+</section>
+
+    </div>
+</main>
+
+</body>
+</html>
